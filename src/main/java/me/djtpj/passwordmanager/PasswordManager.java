@@ -32,6 +32,9 @@ public class PasswordManager {
         try (PrintWriter writer = new PrintWriter(csvFile)) {
 
             updatePasswords();
+            for (Password p : passwords) {
+                System.out.println(p.getAccountName() + " " + p.getUsername() + " " + p.getPassword());
+            }
 
             StringBuilder sb = new StringBuilder();
 
@@ -69,8 +72,6 @@ public class PasswordManager {
                     l.get(1),
                     l.get(2)
             ));
-
-            System.out.println(l.get(0));
         }
     }
 

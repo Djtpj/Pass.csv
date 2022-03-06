@@ -15,6 +15,7 @@
           </grid>
         </constraints>
         <properties>
+          <enabled value="true"/>
           <tabLayoutPolicy value="1"/>
         </properties>
         <border type="none"/>
@@ -24,7 +25,9 @@
             <constraints>
               <tabbedpane title="Search Menu"/>
             </constraints>
-            <properties/>
+            <properties>
+              <enabled value="true"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="cd1fc" class="javax.swing.JTextField" binding="searchBar">
@@ -53,6 +56,7 @@
                 </constraints>
                 <properties>
                   <editable value="false"/>
+                  <enabled value="true"/>
                 </properties>
               </component>
               <component id="14278" class="javax.swing.JList" binding="results">
@@ -70,7 +74,9 @@
             <constraints>
               <tabbedpane title="Password Manager"/>
             </constraints>
-            <properties/>
+            <properties>
+              <enabled value="true"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="6f84e" class="javax.swing.JTextField" binding="usernameField">
@@ -123,11 +129,6 @@
                   <text value="Notes:"/>
                 </properties>
               </component>
-              <vspacer id="23595">
-                <constraints>
-                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                </constraints>
-              </vspacer>
             </children>
           </grid>
         </children>

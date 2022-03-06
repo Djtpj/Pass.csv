@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         MainForm mainForm = new MainForm();
 
-        passwordManager = new PasswordManager(new File("me/djtpj/passwordmanager/Passwords.csv"));
+        passwordManager = new PasswordManager(new File("Passwords.csv"));
     }
 
     public static ArrayList<Password> getPasswords() {

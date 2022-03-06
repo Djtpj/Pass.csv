@@ -3,10 +3,14 @@ package me.djtpj.passwordmanager.ui;
 import me.djtpj.passwordmanager.Main;
 import me.djtpj.passwordmanager.Password;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class MainForm extends JFrame{
@@ -52,23 +56,6 @@ public class MainForm extends JFrame{
                 }
             }
         });
-
-
-
-//        searchButton.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                displayResults(search(searchBar.getText()));
-//            }
-//        });
-
-//        searchBar.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                displayResults(search(searchBar.getText()));
-//                System.out.println("help");
-//            }
-//        });
     }
 
     public JPanel getPanel() {
